@@ -1,0 +1,231 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.HomePage>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco.Cms.Core.Models.PublishedContent
+@{
+	Layout = "MasterPage.cshtml";
+}
+
+
+    <section>
+        <!-- hero section -->
+        <div class="hero">
+            <div class="img-hero">
+                <div class="row">
+                    <div class="col-4 offset-2">
+                        <div class="img-hero-text">
+                            <h1 class="hero-text">We bring <br> success to you</h1><br>
+                            <p class="hero-p-text">Lorem ipsum dolor sit amet, consectetur. adipisicing elit, sed do
+                                <br>
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br>
+                                ad minim
+                            </p><br>
+                            <a href="contactus.html" class="btn-a"><button class="btn-hero">Contact us</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- body content goes here -->
+    <section>
+        <div class="row">
+            <div class="container-body">
+                <br><br><br>
+                <div class="col-6 offset-1">
+                    <h5 class="body-about-us-text">ABOUT US</h5>
+                    <h3 class="body-about-below">We have 40 years experience</h3><br>
+                    <p class="body-about-below-experience">“We have over 25 years of experience providing expert
+                        financial
+                        <br>
+                        advice to both businesses and individuals.”
+                    </p>
+                    <p class="body-below-experience-p-tag">Dolor in reprehenderit in voluptate velit esse cillum dolore
+                        eu
+                        fugiat
+                        nulla pariatur. Excepteur sint <br>
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <br>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    </p>
+                    <img src="images/OnlineSignatures.net-302 1.png" alt="signature" class="img-below-about-in-body">
+                    <p class="body-below-experience-p-tag"> Tina Fox - CEO & Founder </p>
+                </div>
+            </div>
+            <!-- Form Structure -->
+            <div class="col-3 offset-7">
+                <div class="form-container">
+                    <div class="form-header">
+                        Request a Call Back
+                    </div>
+                    <div class="form-description">
+                        <p class="body-below-experience-p-tag">Dolor in reprehenderit in voluptate velit esse cillum
+                            dolore
+                            eu
+                            fugiat nulla pariatur exceptuer sint
+                            occaecat </p>
+                    </div>
+                    <input type="text" class="form-input" placeholder="Name">
+                    <input type="email" class="form-input" placeholder="Email address">
+                    <input type="text" class="form-input" placeholder="Phone">
+                    <select class="form-select">
+                        <option value="Financial consulting">Financial consulting</option>
+                        <option value="Investment advice">Investment advice</option>
+                        <option value="Tax planning">Tax planning</option>
+                    </select>
+                    <button class="form-submit">Submit</button>
+                </div>
+            </div>
+    </section>
+
+    <!-- body card goes here -->
+    <!-- scetion content wrapper -->
+    <section class="services-section">
+        <h4 class="services-h4 body-about-below">Our Services</h4>
+        <h1 class="services-h1 body-about-below">
+            We ProvideThe Solutions
+        </h1>
+        <h1 class="services-h1 body-about-below">
+            To Grow Your Business Faster
+        </h1>
+        <div class="card-container container">
+            <div class="card">
+                <h2 class="card-heading">Risk Management</h2>
+                <img src="images/card-img-1.jpeg" alt="Risk Management" class="card-image">
+                <p class="card-text">Dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non </p>
+            </div>
+            <div class="card" style="margin-left: -90px;">
+                <h2 class="card-heading">Bonds & Commodities</h2>
+                <img src="images/card-img-2.jpeg" alt="Bonds & Commodities" class="card-image">
+                <p class="card-text">Dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non </p>
+            </div>
+            <div class="card" style="margin-left: -90px;">
+                <h2 class="card-heading">Assurance & Audits</h2>
+                <img src="images/card-img-3.jpeg" alt="Assurance & Audits" class="card-image">
+                <p class="card-text">Dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non </p>
+            </div>
+        </div>
+        <div class="card-container container">
+            <div class="card">
+                <h2 class="card-heading">Tax and Trusts
+                </h2>
+                <img src="images/card-img-4.jpeg" alt="Risk Management" class="card-image">
+                <p class="card-text">Dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non </p>
+            </div>
+            <div class="card" style="margin-left: -90px;">
+                <h2 class="card-heading">Financial Advisor</h2>
+                <img src="images/card-img-5.jpeg" alt="Bonds & Commodities" class="card-image">
+                <p class="card-text">Dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non </p>
+            </div>
+            <div class="card" style="margin-left: -90px;">
+                <h2 class="card-heading">Statistic Advisors</h2>
+                <img src="images/card-img-6.jpeg" alt="Assurance & Audits" class="card-image">
+                <p class="card-text">Dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non </p>
+            </div>
+        </div>
+    </section>
+    <!-- content above clients content wrapper -->
+    <section class="clients-sction-content-wrapper">
+        <div class="clients-section">
+            <h1 class="heading-1">
+                We are trusted by more than
+            </h1>
+            <h2 class="heading-2">
+                4.000+ clients
+            </h2>
+            <p class="para-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis molestie nulla.
+                Nam<br>
+                accumsanporttitor arcu,ac tincidunt lectus tincidunt sed</p>
+            <p class="btn-p"> <button class="btn-para">
+                    Read our story
+                </button> </p>
+        </div>
+        <div>
+
+        </div>
+        <div>
+            <img class="img-1" src="images/clients img.png" alt="" srcset="">
+        </div>
+    </section>
+    <!-- Content clients wrapper -->
+    <section class="section-below-clients">
+        <div class="container-img">
+            <h5 class="success-title same-color-class center">SUCCESS STORIES</h5>
+            <h3 class="success-below-title center">Success story</h3>
+            <div class="container">
+                <div class="d-flex justify-content-around">
+                    <h1 class="flex-box-success same-color-class numeric-size">689</h1>
+                    <h1 class="flex-box-success same-color-class numeric-size">370</h1>
+                    <h1 class="flex-box-success same-color-class numeric-size">125</h1>
+                </div>
+                <div class="row">
+                    <div class="col-3 offset-1">
+                        <p class="color-text-1">More than 100 customers has been <br>
+                            <span class="center-text-alignment">served</span>
+                        </p>
+                    </div>
+                    <div class="col-3 offset-1">
+                        <p class="color-text-2">More than 370 projects has been <br>
+                            <span class="center-text-alignment">completed</span>
+                        </p>
+                    </div>
+                    <div class="col-3 offset-1">
+                        <p class="color-text-3">More than 125 branches has been <br>
+                            established in Europe and America</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <img class="success-img" src="images/success.png" alt="success-img-below-clients">
+            </div>
+        </div>
+    </section>
+    <!-- Content clients wrapper -->
+    <section class="projects">
+        <h2>OUR PROJECTS</h2>
+        <h3>Recent projects</h3>
+        <div class="project-gallery">
+            <div class="project-item">
+                <img src="images/pj1.png" alt="Project Image">
+                <div class="project-info">
+                    <h4>Annual Report for Juva Inc.</h4>
+                    <p>Financial Services</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="images/pj2.png" alt="Project Image">
+                <div class="project-info">
+                    <h4>Business Insights for SP Group Inc.</h4>
+                    <p>Financial Services</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="images/pj3.png" alt="Project Image">
+                <div class="project-info">
+                    <h4>Financial Advisors to Irra Corp Inc.</h4>
+                    <p>Financial Services</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="images/pj4.png" alt="Project Image">
+                <div class="project-info">
+                    <h4>Budget Planning for Buccura Inc.</h4>
+                    <p>Financial Services</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+  
